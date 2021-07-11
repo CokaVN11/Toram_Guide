@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Toram Guide</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/guide.css">
+</head>
+<div id="article">
+    <h3>D. Refining</h3>
+    <p>Refining là quá trình tăng cường sức mạnh vũ khí và giáp. Ở vũ khí, refine <b>+N</b> thì atk
+        được tính theo công thức:<b>N<sup>2</sup> % +N</b>. Ví dụ, 1 vũ khí có 100 atk cơ bản refine +6
+        thì atk là +(6<sup>2</sup>% × 100)+6=100 + 36 + 6 = 142. Còn nếu là giáp/ khiên/ nón,
+        mỗi bậc refine được +1% giảm atk nhận.
+    </p>
+
+    <p>Tỉ lệ refine thành công phụ thuộc vào chỉ số TEC và các skill:
+    </p>
+    <ul class="guide ml-30">
+        <li>Refine Equipment</li>
+        <li>Mid-Class Refinement</li>
+        <li>High-Class Refinement</li>
+        <li>Expert's Refinement</li>
+    </ul>
+    Vì tỉ lệ thành công không phụ thuộc vào level của nhân vật nên không cần thiết đạt level cao nhất. Tuy nhiên, thợ
+    rèn có chỉ số TEC cũng hữu dụng cho fill stat và chế tạo thuốc, thay đổi ngoại hình vật phẩm (alchemy) do đó cũng
+    nên đạt level cao nhất.
+    <p></p>
+
+    <p>Khi refine thất bại, giá trị của vật phẩm refine có thể giảm. Chỉ số LUK giúp ngăn việc này, nhưng TEC và LUK là
+        chỉ số cá nhân nên khó có thể một nhân vật có cả hai. Nên chúng ta cần hai nhân vật refine, với role khác nhau.
+    </p>
+
+    <p style="color:#15276B"><i>Credit: A lot of informations and formula are taken from
+            <a href="https://www.dopr.net/toramonline-wiki/seiren255">JP Toram Online Wiki</a></i>
+    </p>
+    <hr>
+
+    <h4 class="sub-title">1. Basic</h4>
+    <p>Giao diện refine có thể mở qua EX Skill menu sau khi học <i>Refine Equipment</i>. Bạn chỉ có thể refine item bạn
+        trang bị. Các bước gồm:
+    </p>
+    <ul class="guide ml-30">
+        <li>Chọn quặng</li>
+        <li>Chọn item</li>
+        <li>Chọn item hỗ trợ (nếu có)</li>
+    </ul>
+
+    <table class="guide ml-30">
+        <tbody>
+            <tr>
+                <th>Rủi ro</th>
+                <th>Tỉ lệ thành công</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>90-99%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>80-89%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>70-79%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>60-69%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>50-59%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>40-49%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>30-39%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>20-29%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10-19%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>1-9%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4 class="sub-title">2. Ores &amp; Tỉ lệ thành công</h4>
+    <p>Refine khá phụ thuộc vào quặng. Tỉ lệ thành công được xác định trên bậc refine hiện tại và loại quặng được dùng.
+        <b>Refining difficulty</b> được tính bằng <span style="color:red"><i>(3 × bậc_refine) -
+                bậc_Ore</i></span>. Ví dụ, vũ khí +6 refine với Damascus Ore thì độ khó=
+        = (3 × 6) - 4 = 14.
+    </p>
+
+    <table class="guide ml-30">
+        <tbody>
+            <tr>
+                <th>Bậc</th>
+                <th>Ore</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hematite</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Iron</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>High-Purity Iron</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Damascus Ore</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Damascus Steel</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>High-Purity Damascus</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Mithril Ore</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Mithril</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>High-Purity Mithril</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Orichalcum Ore</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Orichalcum</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>High-Purity Orichalcum</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The calculated <i>refining difficulty</i> determines the <b>Base Success Rate</b>.</p>
+    <table class="guide ml-30">
+        <tbody>
+            <tr>
+                <th>Difficulty</th>
+                <th>Base Success Rate</th>
+            </tr>
+            <tr>
+                <td>≤ 0</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>1-3</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>5-6</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>11-12</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>14-15</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>17-18</td>
+                <td>-20</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>20-21</td>
+                <td>-40</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>-50</td>
+            </tr>
+            <tr>
+                <td>23-24</td>
+                <td>-60</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>-70</td>
+            </tr>
+            <tr>
+                <td>26-27</td>
+                <td>-80</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>-90</td>
+            </tr>
+            <tr>
+                <td>29-31</td>
+                <td>-100</td>
+            </tr>
+            <tr>
+                <td>≥ 32</td>
+                <td>-110</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><b>Final Success Rate</b> is calculated with this formula:<br>
+        <i><span style="color:red">(Base_success_rate + TEC/4 + A) × B%</span></i>
+    </p>
+
+    <p><b>A</b> is obtained from:<br>
+        Mid-Class Refinement Lv 10 gives <i>+5</i><br>
+        High-Class Refinement Lv 10 gives <i>+10</i><br>
+        Expert's Refinement Lv 10 gives <i>+15</i><br>
+    </p>
+
+    <p><b>B</b> is obtained from:<br>
+        Base number is 50%<br>
+        Refine Equipment Lv 10 gives <i>+20%</i><br>
+        Mid-Class Refinement Lv 10 gives <i>+5%</i><br>
+        High-Class Refinement Lv 10 gives <i>+5%</i><br>
+        Expert's Refinement Lv 10 gives <i>+5%</i>
+    </p>
+
+    <p>The "TEC/4" part is rounded down, so technically 252 TEC is enough. Minimum success rate is 1%, so if
+        the final number is less than 1%, it is considered 1% success rate. Maxing TEC and all skills gives us
+        this formula:<br>
+        <span style="color:red"><i>(Base_success_rate + 63 + 30) × 85%</i></span><br>
+    </p>
+
+    <p>For example, a +C (going to +B) weapon is refined using High-Purity Orichalcum (grade 12).<br>
+        <i>Refining_difficulty = 3 × 12 - 12 = 24<br>
+            Base_success_rate for difficulty 24 is -60<br>
+            Final_success_rate = (-60 + 63 + 30) × 85% = 28.05%</i>
+        <br>&nbsp;
+    </p>
+
+    <p><b>Tier 3 Skills Success Rate</b></p>
+    <table class="guide" style="font-size:15px">
+        <tbody>
+            <tr>
+                <td></td>
+                <th>+1</th>
+                <th>+2</th>
+                <th>+3</th>
+                <th>+4</th>
+                <th>+5</th>
+                <th>+6</th>
+                <th>+7</th>
+                <th>+8</th>
+                <th>+9</th>
+                <th>+E</th>
+                <th>+D</th>
+                <th>+C</th>
+                <th>+B</th>
+                <th>+A</th>
+                <th>+S</th>
+            </tr>
+            <tr>
+                <th>Hematite</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Iron</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>86.4</td>
+                <td>70.4</td>
+                <td>54.4</td>
+                <td>38.4</td>
+                <td>22.4</td>
+                <td>6.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Iron</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>94.4</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Damascus Ore</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Damascus Steel</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>86.4</td>
+                <td>70.4</td>
+                <td>54.4</td>
+                <td>38.4</td>
+                <td>22.4</td>
+                <td>6.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Damascus</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>94.4</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Mithril Ore</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Mithril</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>86.4</td>
+                <td>70.4</td>
+                <td>54.4</td>
+                <td>38.4</td>
+                <td>22.4</td>
+                <td>6.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Mithril</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>94.4</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Orichalcum Ore</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Orichalcum</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>86.4</td>
+                <td>70.4</td>
+                <td>54.4</td>
+                <td>38.4</td>
+                <td>22.4</td>
+                <td>6.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Orichalcum</th>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td style="background-color: #ccffe6">100</td>
+                <td>94.4</td>
+                <td>78.4</td>
+                <td>62.4</td>
+                <td>46.4</td>
+                <td>30.4</td>
+                <td>14.4</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><b>Tier 4 Skills Success Rate</b></p>
+    <table class="guide" style="font-size:15px">
+        <tbody>
+            <tr>
+                <td></td>
+                <th>+1</th>
+                <th>+2</th>
+                <th>+3</th>
+                <th>+4</th>
+                <th>+5</th>
+                <th>+6</th>
+                <th>+7</th>
+                <th>+8</th>
+                <th>+9</th>
+                <th>+E</th>
+                <th>+D</th>
+                <th>+C</th>
+                <th>+B</th>
+                <th>+A</th>
+                <th>+S</th>
+            </tr>
+            <tr>
+                <th>Hematite</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Iron</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>87.5</td>
+                <td>70.5</td>
+                <td>53.5</td>
+                <td>36.5</td>
+                <td>19.5</td>
+                <td>2.5</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Iron</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Damascus Ore</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Damascus Steel</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>87.5</td>
+                <td>70.5</td>
+                <td>53.5</td>
+                <td>36.5</td>
+                <td>19.5</td>
+                <td>2.5</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Damascus</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Mithril Ore</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Mithril</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>87.5</td>
+                <td>70.5</td>
+                <td>53.5</td>
+                <td>36.5</td>
+                <td>19.5</td>
+                <td>2.5</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Mithril</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Orichalcum Ore</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>Orichalcum</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>87.5</td>
+                <td>70.5</td>
+                <td>53.5</td>
+                <td>36.5</td>
+                <td>19.5</td>
+                <td>2.5</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+            <tr>
+                <th>High-Purity Orichalcum</th>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td style="background-color:#ccffe6">100</td>
+                <td>96</td>
+                <td>79</td>
+                <td>62</td>
+                <td>45</td>
+                <td>28</td>
+                <td>11</td>
+                <td style="background-color:#ffcccc">1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4 class="sub-title">3. Degradation</h4>
+    <p>Upon refinement failure, the item's refine value may degrade. The degradation vary depending on the item's
+        type. Non slotted item can degrade up to 1 value. 1-slotted item can degrade up to 2 value. 2-slotted item can
+        degrade up to 3 value. The degradation rate can be reduced by LUK stat and some refine support items.
+    </p>
+
+    <p>As we can see in the success rate table, as of current update, going to +A and +S are always 1% success rate
+        regardless on what ore we use. Since success rate cannot go below 1%, using TEC smith or LUK smith has same
+        rate.
+        In this case, it is better to use LUK smith to minimize degradation. 255 LUK combined with
+        <i>Anti-Degradation</i>
+        (75%), believed to prevent degradation around 95%. <small><span style="color:#00cc99">(Someone at JP forum said
+                98.4%, however there's no exact explanation on how that number calculated.)</span></small>
+    </p>
+
+    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle adsense-article" style="display: block; height: 200px;" data-ad-layout="in-article"
+        data-ad-format="fluid" data-ad-client="ca-pub-6728336374001187" data-ad-slot="6662796878"
+        data-adsbygoogle-status="done" data-ad-status="filled" data-overlap-observer-io="false"><ins
+            id="aswift_2_expand"
+            style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1200px;background-color:transparent;"
+            tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_2_anchor"
+                style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1200px;background-color:transparent;"><iframe
+                    id="aswift_2" name="aswift_2"
+                    style="left:0;position:absolute;top:0;border:0;width:1200px;height:200px;"
+                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    width="1200" height="200" frameborder="0"
+                    src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6728336374001187&amp;output=html&amp;h=200&amp;slotname=6662796878&amp;adk=1800910843&amp;adf=2055894975&amp;pi=t.ma~as.6662796878&amp;w=1200&amp;fwrn=4&amp;lmt=1625967881&amp;rafmt=11&amp;psa=1&amp;format=1200x200&amp;url=https%3A%2F%2Fcoryn.club%2Fguide.php%3Fkey%3Dsmith&amp;flash=0&amp;wgl=1&amp;adsid=ChAI8IqlhwYQpM3PyKnjhK5SEkgAXjvjjwzSYn38ArI4s0LmxJIb_tyPsD_LfoXmV0B8OiChD-X6aBmyQL3spnZkC0BE91VthbyvFdNl7i1AFlfmbOLRcbv4i2U&amp;uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkxLjAuNDQ3Mi4xMjQiLFtdLG51bGwsbnVsbCxudWxsXQ..&amp;tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hZHNlcnZpY2UuZ29vZ2xlLmNvbSIsInN0YXRlIjo2fSx7Imlzc3Vlck9yaWdpbiI6Imh0dHBzOi8vYXR0ZXN0YXRpb24uYW5kcm9pZC5jb20iLCJzdGF0ZSI6N31d&amp;dt=1625967881378&amp;bpp=115&amp;bdt=3146&amp;idt=116&amp;shv=r20210701&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D38419462de1ab484-227b0b983cca0084%3AT%3D1625824186%3ART%3D1625824186%3AS%3DALNI_MYIaK7L0_v0kTrmjn5Uq6PqAsGKmA&amp;prev_fmts=970x250%2C0x0&amp;nras=1&amp;correlator=3647788295210&amp;frm=20&amp;pv=1&amp;ga_vid=141274947.1625824185&amp;ga_sid=1625967879&amp;ga_hid=1495950531&amp;ga_fc=0&amp;rplot=4&amp;u_tz=420&amp;u_his=3&amp;u_java=0&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=314&amp;ady=3013&amp;biw=1920&amp;bih=929&amp;scr_x=0&amp;scr_y=0&amp;eid=42530672%2C31060973%2C31061745%2C21067496%2C44744439&amp;oid=3&amp;psts=AGkb-H-u8XqmShfeKR6QWeuAwGhDPkHQ8AMIurGQSxa4y6XxIvYx55HQ23S20WfWoCeQ88H4v5visE5eNGg9JQ&amp;pvsid=3644252755294873&amp;pem=710&amp;ref=https%3A%2F%2Fcoryn.club%2Fmonster.php%3Fid%3D1077&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1920%2C929&amp;vis=1&amp;rsz=%7C%7CeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;ifi=3&amp;uci=a!3&amp;btvi=1&amp;fsb=1&amp;xpc=NBkhpMyUKA&amp;p=https%3A//coryn.club&amp;dtd=126"
+                    marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"
+                    allowfullscreen="true"
+                    trusttoken="{&quot;type&quot;:&quot;send-redemption-record&quot;,&quot;issuers&quot;:[&quot;https://adservice.google.com&quot;],&quot;refreshPolicy&quot;:&quot;none&quot;,&quot;signRequestData&quot;:&quot;include&quot;,&quot;includeTimestampHeader&quot;:true,&quot;additionalSignedHeaders&quot;:[&quot;sec-time&quot;,&quot;Sec-Redemption-Record&quot;],&quot;additionalSigningData&quot;:&quot;eyJ1cmwiOiJodHRwczovL2NvcnluLmNsdWIvZ3VpZGUucGhwP2tleT1zbWl0aCJ9&quot;}"
+                    allow="conversion-measurement" data-google-container-id="a!3"
+                    data-google-query-id="CIzqyLDy2fECFW6E6QUdgfMIng"
+                    data-load-complete="true"></iframe></ins></ins></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <h4 class="sub-title">4. Refine Support Item</h4>
+    <p>Refine support items are useful for increasing success rate and/or reducing degradation rate. Some are
+        obtainable from orb shop only, while some are obtainable from in game quest / guild maze.
+    </p>
+
+    <table class="guide">
+        <tbody>
+            <tr>
+                <th>Item</th>
+                <th>Effect</th>
+                <th>Obtained From</th>
+            </tr>
+            <tr>
+                <td>Anti-Degradation</td>
+                <td>Prevents degradation by 75%</td>
+                <td>Quest/Maze floor 1-600</td>
+            </tr>
+            <tr>
+                <td>Super Anti-Degradation</td>
+                <td>Prevents degradation by 85%</td>
+                <td>Maze floor 601-900</td>
+            </tr>
+            <tr>
+                <td>Hyper Anti-Degradation</td>
+                <td>Prevents degradation by 95%</td>
+                <td>Maze floor 901-1000</td>
+            </tr>
+            <tr>
+                <td>Insurance Ticket (95%)</td>
+                <td>Prevents degradation by 95%</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Insurance Ticket (100%)</td>
+                <td>Prevents degradation by 100%</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Powder</td>
+                <td>Refine Success +5%</td>
+                <td>Quest/Maze floor 1-600</td>
+            </tr>
+            <tr>
+                <td>Super Refinement Powder</td>
+                <td>Refine Success +10%</td>
+                <td>Maze Floor 601-900</td>
+            </tr>
+            <tr>
+                <td>Hyper Refinement Powder</td>
+                <td>Refine Success +15%</td>
+                <td>Maze Floor 901-1000</td>
+            </tr>
+            <tr>
+                <td>Bronze Pom Refine</td>
+                <td>Prevents degradation by 75%<br>
+                    Refine Success +5%</td>
+                <td>Event</td>
+            </tr>
+            <tr>
+                <td>Silver Pom Refine</td>
+                <td>Prevents degradation by 85%<br>
+                    Refine Success +10%</td>
+                <td>Event</td>
+            </tr>
+            <tr>
+                <td>Gold Pom Refine</td>
+                <td>Prevents degradation by 95%<br>
+                    Refine Success +15%</td>
+                <td>Event</td>
+            </tr>
+            <tr>
+                <td>Magic Hammer</td>
+                <td>Refine Success +20%<br>
+                    Item lost when failed</td>
+                <td>Quest/Maze floor 1-600</td>
+            </tr>
+            <tr>
+                <td>Super Magic Hammer</td>
+                <td>Refine Success +40%<br>
+                    Item lost when failed</td>
+                <td>Maze floor 601-900</td>
+            </tr>
+            <tr>
+                <td>Hyper Magic Hammer</td>
+                <td>Refine Success +60%<br>
+                    Item lost when failed</td>
+                <td>Maze Floor 901-1000</td>
+            </tr>
+            <tr>
+                <td>Beginer Smith's Hammer</td>
+                <td>Refine Success +5</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Smith's Hammer</td>
+                <td>Refine Success +10</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Neo Smith's Hammer</td>
+                <td>Refine Success +20</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Master Smith's Hammer</td>
+                <td>Refine Success +30</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Expert's Hammer</td>
+                <td>Refine Success +5<br>
+                    Prevents degradation by 100%</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Neo Expert's Hammer</td>
+                <td>Refine Success +10<br>
+                    Prevents degradation by 100%</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Supreme Expert's Hammer</td>
+                <td>Refine Success +20<br>
+                    Prevents degradation by 100%</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Ultimate Expert's Hammer</td>
+                <td>Refine Success +30<br>
+                    Prevents degradation by 100%</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (150%)</td>
+                <td>Refine Success × 1.5</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (200%)</td>
+                <td>Refine Success × 2</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (300%)</td>
+                <td>Refine Success × 3</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (400%)</td>
+                <td>Refine Success × 4</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (500%)</td>
+                <td>Refine Success × 5</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (600%)</td>
+                <td>Refine Success × 6</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (700%)</td>
+                <td>Refine Success × 7</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (800%)</td>
+                <td>Refine Success × 8</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (900%)</td>
+                <td>Refine Success × 9</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (1000%)</td>
+                <td>Refine Success × 10</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (+5)</td>
+                <td>When refine succeed, item becomes +5</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (+6)</td>
+                <td>When refine succeed, item becomes +6</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (+7)</td>
+                <td>When refine succeed, item becomes +7</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (+8)</td>
+                <td>When refine succeed, item becomes +8</td>
+                <td>Orb Shop</td>
+            </tr>
+            <tr>
+                <td>Refinement Ticket (+9)</td>
+                <td>When refine succeed, item becomes +9</td>
+                <td>Orb Shop</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4 class="sub-title">5. In-Game V.S. Orb Shop's Hammer</h4>
+    <p>Refinement Powders and Magic Hammers are obtainable from in-game quest/maze, however they are far less
+        powerful compared to Orb Shop's items. Take the example from section 2, refining a +C weapon using High-purity
+        Orichalcum has 28.05% success rate (8 risk). If we refine using Super Refinement Powder, we get
+        <i>10% × 28.05% = 2.8% bonus</i>, totaling <i>30.85%</i> success rate. Refinement window will now show
+        7 risk. The hammer from orb shop gives flat success rate.
+        For example, when using Smith's Hammer, success rate will be <i>28.05% + 10% = 38.05%</i>, also showing 7 risk,
+        but actually considerably higher success rate.
+        The following table shows example for more items.
+    </p>
+
+    <table class="guide">
+        <tbody>
+            <tr>
+                <th>Support Item</th>
+                <th>Success Rate</th>
+                <th>Risk</th>
+            </tr>
+            <tr>
+                <td>Refinement Powder</td>
+                <td>28.05% × 1.05 = 29.45%</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Super Refinement Powder</td>
+                <td>28.05% × 1.10 = 30.85%</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Hyper Refinement Powder</td>
+                <td>28.05% × 1.15 = 32.25%</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Magic Hammer</td>
+                <td>28.05% × 1.20 = 33.66%</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Super Magic Hammer</td>
+                <td>28.05% × 1.40 = 39.27%</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Hyper Magic Hammer</td>
+                <td>28.05% × 1.60 = 44.88%</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Beginner Smith's Hammer</td>
+                <td>28.05% +5% = 33.05%</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Smith's Hammer</td>
+                <td>28.05% +10% = 38.05%</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Neo Smith's Hammer</td>
+                <td>28.05% +20% = 48.05%</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Master Smith's Hammer</td>
+                <td>28.05% +30% = 58.05%</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</html>
