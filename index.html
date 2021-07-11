@@ -166,11 +166,11 @@
         </tbody>
     </table>
 
-    <p>The calculated <i>refining difficulty</i> determines the <b>Base Success Rate</b>.</p>
+    <p>Giá trị <i>Độ khó</i> dùng để xác định <b>Base Success Rate</b>.</p>
     <table class="guide ml-30">
         <tbody>
             <tr>
-                <th>Difficulty</th>
+                <th>Độ khó</th>
                 <th>Base Success Rate</th>
             </tr>
             <tr>
@@ -264,33 +264,31 @@
         </tbody>
     </table>
 
-    <p><b>Final Success Rate</b> is calculated with this formula:<br>
+    <p><b>Final Success Rate</b> được tính theo công thức:<br>
         <i><span style="color:red">(Base_success_rate + TEC/4 + A) × B%</span></i>
     </p>
 
-    <p><b>A</b> is obtained from:<br>
-        Mid-Class Refinement Lv 10 gives <i>+5</i><br>
-        High-Class Refinement Lv 10 gives <i>+10</i><br>
-        Expert's Refinement Lv 10 gives <i>+15</i><br>
+    <p><b>A</b> được lấy từ:<br>
+        Mid-Class Refinement Lv 10:<i>+5</i><br>
+        High-Class Refinement Lv 10:<i>+10</i><br>
+        Expert's Refinement Lv 10:<i>+15</i><br>
     </p>
 
-    <p><b>B</b> is obtained from:<br>
-        Base number is 50%<br>
-        Refine Equipment Lv 10 gives <i>+20%</i><br>
-        Mid-Class Refinement Lv 10 gives <i>+5%</i><br>
-        High-Class Refinement Lv 10 gives <i>+5%</i><br>
-        Expert's Refinement Lv 10 gives <i>+5%</i>
+    <p><b>B</b> được lấy từ:<br>
+        Giá trị cơ bản là 50%<br>
+        Refine Equipment Lv 10:<i>+20%</i><br>
+        Mid-Class Refinement Lv 10:<i>+5%</i><br>
+        High-Class Refinement Lv 10:<i>+5%</i><br>
+        Expert's Refinement Lv 10:<i>+5%</i>
     </p>
 
-    <p>The "TEC/4" part is rounded down, so technically 252 TEC is enough. Minimum success rate is 1%, so if
-        the final number is less than 1%, it is considered 1% success rate. Maxing TEC and all skills gives us
-        this formula:<br>
+    <p>TEC/4 được làm tròn xuống, do theo lý thuyết 252 TEC là vừa đủ. SucRate nhỏ nhất là 1%, do đó nếu F.SucRate nhỏ hơn 1%, khi đó nó sẽ được tính là 1%. Khi TEC và skill đã full thì ta có: <br>
         <span style="color:red"><i>(Base_success_rate + 63 + 30) × 85%</i></span><br>
     </p>
 
-    <p>For example, a +C (going to +B) weapon is refined using High-Purity Orichalcum (grade 12).<br>
-        <i>Refining_difficulty = 3 × 12 - 12 = 24<br>
-            Base_success_rate for difficulty 24 is -60<br>
+    <p>Ví dụ, vũ khí +C (nâng lên +B) refine dùng High-Purity Orichalcum (bậc 12)<br>
+        <i>Độ khó = 3 × 12 - 12 = 24<br>
+            Base_success_rate= -60<br>
             Final_success_rate = (-60 + 63 + 30) × 85% = 28.05%</i>
         <br>&nbsp;
     </p>
